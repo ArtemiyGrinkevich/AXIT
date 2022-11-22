@@ -1,0 +1,31 @@
+.designe {
+    background: url(../assets/images/design.jpg) no-repeat;
+    padding-top: 100px;
+    min-height: 358px;
+    background-size: contain;
+}
+.hat__container { 
+    color: #fff;
+    min-height: 358px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding: 50px 0 50px 0 ;
+}
+
+.button-download__button-designe{
+    color: #fff;
+    background: none;
+    border: 1px solid #fff;
+    height: 58px;
+    width: 270px;
+    
+}
+.button-designe{
+    margin: 40px auto 50px;    
+}
+.hat-line__container{
+    width: 170px;
+    border:1px solid #fff;
+}

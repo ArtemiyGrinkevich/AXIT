@@ -1,0 +1,103 @@
+
+.contacts-forms {
+    display: flex;
+    justify-content: space-around;
+}
+.sendform{
+    padding: 0 10px 0 30px;
+    width: 100%; 
+    height: 210px;
+    
+}
+.abracodabra{
+    display: flex;
+}
+.fieldset-contacts {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    width: 50%;
+    padding: 0 10px 50px 50px;
+}
+.input-form{
+   
+    width: 50%;
+}
+.input-started {
+    
+    width: 100%; 
+}
+.message-form{
+    padding: 0 50px 50px 10px;
+    width: 50%;
+    max-width: 571px;
+}
+.textarea-message {
+
+    color: #000;
+    margin: auto 0 1;
+}
+
+.textarea-message{
+    width: 100%;
+
+    
+    height: 210px;
+    min-height: 210px;
+    border: 1px solid rgba(189, 189, 189, 1);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+   color: rgba(189, 189, 189, 1);
+   font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 19px;
+   text-align: left;
+   /* padding-bottom: 140px; */
+   resize: none;
+   
+}
+.send-form-button {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.button-sendmessage{
+    width: 370px;
+    height: 68px;
+    
+    border: none;
+    color: #fff;
+    background-color:rgba(236, 121, 121, 1) ;
+    font-family: 'Open Sans', sans-serif;
+font-size: 15px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+}
+.input-contacts{
+    width: 100%;
+     min-height: 70px;
+     border: 1px solid rgba(189, 189, 189, 1);
+     border-top: none;
+     border-left: none;
+     border-right: none;
+    color: rgba(189, 189, 189, 1);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+}
+.textarea-message{
+    resize: none;
+}
+
+
+
+
+
+
+
+  

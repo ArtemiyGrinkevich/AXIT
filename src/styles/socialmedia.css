@@ -1,0 +1,54 @@
+.social-media {
+    margin: 0 auto;
+    
+    width: 1510px;
+    height: 140px;
+    background: rgba(248, 239, 239, 1);
+}
+.social-media-contant {
+   
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 140px;
+}
+.social-media-text {
+    max-width: 50%;
+    max-height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+.social-media-title {
+    font-family: 'Open Sans', sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 33px;
+text-align: left;
+height: 60px;
+padding-top: 5%;
+
+}
+.social-media-deskription {
+    font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+height: 42px;
+padding-bottom: 15%;
+
+}
+.social-media-logo {
+    display: flex;
+    justify-content: space-between;
+}
+.networks-link{
+    padding-top: 5%;  
+}
+.network-image{  
+    height: 70px; 
+    width: auto; 
+    padding: 0 5px;
+}

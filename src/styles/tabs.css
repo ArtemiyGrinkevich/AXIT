@@ -1,0 +1,113 @@
+.tabs {
+    padding-top: 100px;
+    max-height: 100%;
+}
+
+.tabs__buttons {
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.tabs__button--active {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    position: relative;
+    top: 1px;
+}
+.tabs__content {
+    display: flex;   
+    background-size: contain;
+}
+.tabs__content-text {
+    
+    padding:  1px 30px 27px 100px;
+    border: 1px solid;
+    border-right: none;
+    padding-top: 60px;
+    
+}
+.tabs__content-title {
+    font-family: 'Open Sans', sans-serif;
+font-size: 30px;
+font-weight: 700;
+line-height: 41px;
+text-align: left;
+}
+.tabs__content-discription {
+    min-height: 112px;
+    line-height: 20px;
+    font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+padding-top: 60px;
+line-height: 30px;
+padding-bottom: 38px;
+}
+.button-download {
+    
+    font-family: 'Open Sans', sans-serif;
+font-size: 18px;
+font-weight: 600;
+line-height: 25px;
+text-align: center;
+background-color:rgba(236, 121, 121, 1) ;
+border: none;
+height: 58px;
+width: 270px;
+color: #fff;}
+
+.testbtn{
+    width: 60%;
+    position: relative;
+}
+
+.tabs__button{
+  
+    appearance: none;
+    width: 30%;
+    height: 40px;
+    border: none;
+    transition: 0.2s all linear;
+    outline: none;
+    margin-right: 5px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 10px;
+  }
+  
+  .tabs__button:checked {
+    
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    position: relative;
+    top: 6px;
+    
+  }
+  .tab-position1{
+    position: absolute;
+    margin: 15px 50px;
+    right: 500px;
+   
+  }
+  .tab-position2{
+    position: absolute;
+    margin: 15px 50px;
+    right: 300px;
+    
+  }
+  .tab-position3{
+    position: absolute;
+    margin: 15px 50px;
+    right: 100px;
+   
+  }
+  
+  
